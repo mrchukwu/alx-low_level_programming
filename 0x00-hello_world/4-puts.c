@@ -1,6 +1,6 @@
 #include <stdio.h>
-/*
- * main- Servers as the entry point into the program
+/**
+ * main- Servers as the entry point for the program
  *
  * Return: By default returns zero, meaning the code exe. Otherwise one meaning it didnt exe
  */
