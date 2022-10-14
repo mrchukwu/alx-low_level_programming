@@ -2,7 +2,7 @@
 /**
  * main- Servers as the entry point for the program
  *
- * Return: By default returns zero, meaning the code exe. Otherwise one meaning it didnt exe
+ * Return: By default returns zero if no erros otherwise returns non-zero value.
  */
 int main(void)
 {
