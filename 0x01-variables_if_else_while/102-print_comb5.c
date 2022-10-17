@@ -1,9 +1,6 @@
 #include <stdio.h>
 /**
  * main-program entry point.
- *
- * Description: prints all possible combinations of two two-digit numbers
- *
  * Return:0 no error,non zero value if error.
  */
 int main(void)
@@ -19,14 +16,13 @@ int main(void)
 
 			putchar(' ');
 
-			putchar('0' + j + 10);
+			putchar('0' + j / 10);
 			putchar('0' + j % 10);
 
 			if (i == 98 && j == 99)
 				break;
 			putchar(',');
 			putchar(' ');
-
 		}
 	}
 
