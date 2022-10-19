@@ -13,7 +13,7 @@ int main(void)
 	b = 2;
 	c = 3;
 	s = 2;
-	for ( d =; d <= 32; d++)
+	for (d = 2; d <= 32; d++)
 	{
 		if (c % 2 == 0)
 			s = s + c;
