@@ -6,7 +6,7 @@
  * Return:0 success, non-zero digit if error
  */
 
-void print_number(int n)
+void print_numbers(int n)
 {
 	if (n < 0)
 	{
