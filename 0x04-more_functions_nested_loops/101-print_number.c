@@ -6,7 +6,7 @@
  * Return:0 success, non-zero digit if error
  */
 
-void print_numbers(int n)
+void print_number(int n)
 {
 	if (n < 0)
 	{
@@ -17,5 +17,5 @@ void print_numbers(int n)
 	{
 		print_number(n / 10);
 	}
-	_putchar('0' + (n % 10));
+	_printchar('0' + (n % 10));
 }
